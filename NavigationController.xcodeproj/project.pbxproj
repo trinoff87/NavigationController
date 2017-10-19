@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7DEFC4A71F982CBC00075E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFC4A61F982CBC00075E10 /* AppDelegate.m */; };
-		7DEFC4AA1F982CBC00075E10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFC4A91F982CBC00075E10 /* ViewController.m */; };
+		7DEFC4AA1F982CBC00075E10 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFC4A91F982CBC00075E10 /* Home.m */; };
 		7DEFC4AD1F982CBC00075E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DEFC4AB1F982CBC00075E10 /* Main.storyboard */; };
 		7DEFC4B01F982CBC00075E10 /* NavigationController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DEFC4AE1F982CBC00075E10 /* NavigationController.xcdatamodeld */; };
 		7DEFC4B21F982CBC00075E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DEFC4B11F982CBC00075E10 /* Assets.xcassets */; };
@@ -20,8 +20,8 @@
 		7DEFC4A21F982CBC00075E10 /* NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEFC4A51F982CBC00075E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DEFC4A61F982CBC00075E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DEFC4A81F982CBC00075E10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DEFC4A91F982CBC00075E10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DEFC4A81F982CBC00075E10 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		7DEFC4A91F982CBC00075E10 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		7DEFC4AC1F982CBC00075E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DEFC4AF1F982CBC00075E10 /* NavigationController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavigationController.xcdatamodel; sourceTree = "<group>"; };
 		7DEFC4B11F982CBC00075E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 		7DEFC4BE1F982CC800075E10 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7DEFC4A81F982CBC00075E10 /* ViewController.h */,
-				7DEFC4A91F982CBC00075E10 /* ViewController.m */,
+				7DEFC4A81F982CBC00075E10 /* Home.h */,
+				7DEFC4A91F982CBC00075E10 /* Home.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DEFC4B01F982CBC00075E10 /* NavigationController.xcdatamodeld in Sources */,
-				7DEFC4AA1F982CBC00075E10 /* ViewController.m in Sources */,
+				7DEFC4AA1F982CBC00075E10 /* Home.m in Sources */,
 				7DEFC4B81F982CBC00075E10 /* main.m in Sources */,
 				7DEFC4A71F982CBC00075E10 /* AppDelegate.m in Sources */,
 			);
