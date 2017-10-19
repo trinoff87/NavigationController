@@ -60,10 +60,8 @@
 		7DEFC4A41F982CBC00075E10 /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				7DEFC4A51F982CBC00075E10 /* AppDelegate.h */,
-				7DEFC4A61F982CBC00075E10 /* AppDelegate.m */,
-				7DEFC4A81F982CBC00075E10 /* ViewController.h */,
-				7DEFC4A91F982CBC00075E10 /* ViewController.m */,
+				7DEFC4BF1F982CD400075E10 /* Main */,
+				7DEFC4BE1F982CC800075E10 /* Controllers */,
 				7DEFC4AB1F982CBC00075E10 /* Main.storyboard */,
 				7DEFC4B11F982CBC00075E10 /* Assets.xcassets */,
 				7DEFC4B31F982CBC00075E10 /* LaunchScreen.storyboard */,
@@ -72,6 +70,24 @@
 				7DEFC4AE1F982CBC00075E10 /* NavigationController.xcdatamodeld */,
 			);
 			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		7DEFC4BE1F982CC800075E10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFC4A81F982CBC00075E10 /* ViewController.h */,
+				7DEFC4A91F982CBC00075E10 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7DEFC4BF1F982CD400075E10 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7DEFC4A51F982CBC00075E10 /* AppDelegate.h */,
+				7DEFC4A61F982CBC00075E10 /* AppDelegate.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
